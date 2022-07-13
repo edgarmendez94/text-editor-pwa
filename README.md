@@ -10,4 +10,4 @@ You can also click the install button on the main page of the application and it
 
 ## App In Use
 
-![GIF](/Assets/site.gif)
+![GIF](assets/site.gif)
