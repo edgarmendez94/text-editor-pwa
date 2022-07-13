@@ -35,6 +35,7 @@ module.exports = () => {
         background_color: '#ffffff',
         orientation: "portrait",
         fingerprints: false,
+        inject: true,
         start_url: "./",
         publicPath: './',
         icons: [
@@ -53,6 +54,10 @@ module.exports = () => {
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.(png|svg|jpg|jpeg|gif)$/i,
+          type: 'asset/resource',
         },
         {
           test: /\.m?js$/,
